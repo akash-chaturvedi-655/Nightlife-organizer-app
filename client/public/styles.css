@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.sliderimg{
+    width: 100%;
+    height: 400px;
+    object-fit: contain ;
+    
+  }
+
+  #myHeading img {
+    float:left;
+    margin-right:10px;
+    position: relative;
+    top:2px;
+  }
+
+body{
+
+  background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/140801122416-nightlife-cities-10-bangkok-horizontal-large-gallery.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1
+{
+  font-family: 'Lobster', cursive;
+  color : white ;
+  text-align: center;
+  font-size: 6vw;
+  text-align: center;
+}
+
+h2 {
+
+  font-family: 'Permanent Marker', cursive;
+  font-size:2.95vw;
+  text-align: center;
+}
+
+
+
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}

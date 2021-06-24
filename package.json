@@ -1,0 +1,50 @@
+{
+  "name": "nightlife",
+  "version": "1.0.0",
+  "description": "An application to co-ordinate nightlife in your location based on user parameters",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "webpack",
+    "dev": "webpack serve --mode development --env development"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Akash Chaturvedi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.0.0",
+    "cors": "~2.8.5",
+    "create-react-app": "^4.0.3",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "~5.12.13",
+    "node": "^16.1.0",
+    "react": "~17.0.2",
+    "react-alice-carousel": "^2.5.1",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
